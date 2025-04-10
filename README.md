@@ -2,7 +2,7 @@
 
 ## Abstract
 
-Financial time series are complex, especially at high frequencies. Accessing minute-level data can be challenging, yet crucial for many analyses. This project explores "time-series super-resolution" – predicting intra-hour (2-minute) price movements using only historical hourly OHLC (Open, High, Low, Close) data. We employ an LSTM-Attention framework designed to capture temporal trends while enforcing strict boundary constraints, ensuring the predicted sequence starts and ends at the known hourly anchor points. While the model adheres to these constraints, results indicate significant challenges in accurately reconstructing realistic intra-hour dynamics solely from hourly data.
+Financial time series are complex, especially at high frequencies. Accessing minute-level data can be challenging yet crucial for many analyses. This project explores "time-series super-resolution" predicting intra-hour (2-minute) price movements using only historical hourly OHLC (Open, High, Low, Close) data. The model employs an LSTM-Attention framework to capture temporal trends while enforcing strict boundary constraints, ensuring the predicted sequence starts and ends at the known hourly anchor points. While the model adheres to these constraints, results indicate significant challenges in accurately reconstructing realistic intra-hour dynamics solely from hourly data.
 
 ## Problem Statement
 
